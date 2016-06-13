@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.blue.MainActivity">
+    <item android:id="@+id/enable_visiblity" android:title="打开可见"
+        android:orderInCategory="100" app:showAsAction="never"
+        />
+
+    <item android:id="@+id/find_device" android:title="查找设备"
+        android:orderInCategory="100" app:showAsAction="never"
+        />
+
+    <item android:id="@+id/bonded_device" android:title="已绑定设备"
+        android:orderInCategory="100" app:showAsAction="never"
+        />
+
+    <item android:id="@+id/listening" android:title="等待连接"
+        android:orderInCategory="100" app:showAsAction="never"
+        />
+
+    <item android:id="@+id/stop_listening" android:title="停止监听"
+        android:orderInCategory="100" app:showAsAction="never"
+        />
+
+    <item android:id="@+id/disconnect" android:title="断开"
+        android:orderInCategory="100" app:showAsAction="never"
+        />
+
+    <item android:id="@+id/say_hello" android:title="hello"
+        android:orderInCategory="100" app:showAsAction="never"
+        />
+
+    <item android:id="@+id/say_hi" android:title="hi"
+        android:orderInCategory="100" app:showAsAction="never"
+        />
+</menu>
